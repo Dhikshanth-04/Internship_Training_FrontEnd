@@ -12,15 +12,18 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, #0b1a1f, #162c33, #25444f);
 }
 
-h1 {
+.lin {
   font-size: 40px;
-  color: #ffffff;
+  color: transparent;
   text-decoration: none;
   margin-left: 4%;
   padding: 10px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #6a11cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navbar {
   background: linear-gradient(135deg, #1e3c72, #2a5298, #6a11cb);
@@ -47,8 +50,17 @@ h1 {
 .navItem a {
   font-size: 20px;
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: rgba(127, 255, 212, 0.6);
   text-align: right;
+  transition: all ease-out 0.2s;
+}
+
+.navItem a:hover {
+  font-size: 22px;
+  background: linear-gradient(90deg, #1e90ff, #f0f8ff, #7fffd4);
+  background-clip: text;
+  color: transparent;
 }
 
 .style {
@@ -64,6 +76,13 @@ h1 {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
   font-size: 20px;
   color: #ffffff;
+  transition: all ease-in 0.3s;
+}
+
+.style:hover {
+  width: 91%;
+  box-shadow: 0 15px 15px rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
 }
 
 .table td,
@@ -81,7 +100,16 @@ h1 {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   padding: 10px;
+  transition: all ease-in 0.3s;
 }
+
+.proLink:hover {
+  font-size: 22px;
+  background: linear-gradient(90deg, #1e90ff, #f0f8ff, #7fffd4);
+  background-clip: text;
+  color: transparent;
+}
+
 .contact {
   display: inline;
 }
