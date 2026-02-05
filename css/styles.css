@@ -22,3 +22,6 @@ p {
 a {
   font-family: "SN Pro", sans-serif;
 }
+.navbar {
+  background-color: blue;
+}
