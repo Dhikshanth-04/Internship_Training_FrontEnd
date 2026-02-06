@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Oldenburg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(135deg, #1a1a1a, #330000);
+  min-height: 100vh;
+  font-family: "Oldenburg", serif;
+  color: #eaeaea;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  margin: 60px auto;
+  width: 50%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  line-height: 30px;
+}
+
+.form table,
+legend {
+  margin: 0 auto;
+}
+
+.input {
+  border-radius: 8px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+  padding-left: 10px;
+  transition: all ease-in 0.3s;
+}
+
+.input::placeholder {
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.input:hover {
+  transform: translateY(-2px);
+}
+
+td {
+  padding: 5px;
+}
+
+textarea {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+input[type="submit"],
+[type="reset"] {
+  padding: 12px 28px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  color: white;
+  font-size: 16px;
+  font-family: "Oldenburg", serif;
+  transition: all ease-in 0.3s;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-3px);
+  background-color: green;
+}
+
+input[type="reset"]:hover {
+  transform: translateY(-3px);
+  background-color: black;
+}
+
+.feild {
+  margin: auto;
+}

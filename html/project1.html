@@ -4,50 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 01</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/project1.css">
 </head>
 <body>
+    <div>
+        <section class="course">
     <h1>Course Registration Form</h1>
-    <fieldset>
+    <form>
+    <fieldset class="form">
         <legend>Personal Details</legend>
-        <form>
+        
         <table>
             <tr>
                 <td><label for="fname"> First Name</label></td>
-                <td><input type="text" id="fname" name="fname" placeholder="Ex: Dhikshanth" required></td>
+                <td><input class="input" type="text" id="fname" name="fname" placeholder="Ex: Dhikshanth" required></td>
             </tr>
             <tr><td><label for="sname">Surname</label></td>
-                <td><input type="text" id="sname" name="sname" placeholder="Ex: K"></td>
+                <td><input class="input" type="text" id="sname" name="sname" placeholder="Ex: K"></td>
             </tr>
             <tr>
-                <td><label for="Mobile">Mobile Number</label></td>
-                <td><input type="tel" id="mobile" name="mobile" required placeholder="EX:9943494763"></td>
+                <td><label for="Mobile">Mobile</label></td>
+                <td><input class="input" type="tel" id="mobile" name="mobile" required placeholder="EX:9943494763"></td>
             </tr>
             <tr>
                 <td><label for="email">Email</label></td>
-                <td><input type="email" id="email" name="email" placeholder="abc@gmail.com" required></td>
+                <td><input class="input" type="email" id="email" name="email" placeholder="abc@gmail.com" required></td>
             </tr>
             <tr>
                 <td><label for="pass">Password</label></td>
-                <td><input type="password" id="pass" name="pass" placeholder="Min 8 characters"></td>
+                <td><input class="input" type="password" id="pass" name="pass" placeholder="Min 8 characters"></td>
             </tr>
             <tr>
                 <td><label for="cpass">Confirm Password</label></td>
-                <td><input type="password" id="cpass" name="cpass" placeholder="Min 8 characters"></td>
+                <td><input class="input" type="password" id="cpass" name="cpass" placeholder="Min 8 characters"></td>
             </tr>
             <tr>
                 <td><label for="dob">Date of Birth </label></td>
-                <td><input type="date" id="dob" name="dob" required></td>
+                <td><input class="input" type="date" id="dob" name="dob" required></td>
             </tr>
             <tr>
                 <td><label for="age">Age</label></td>
-                <td><input type="number" id="age" name="age" min="18" max="100" required></td>
+                <td><input class="input" type="number" id="age" name="age" min="18" max="100" required></td>
             </tr>
             <tr>
                 <td><label for="gender">Gender</label></td>
-                <td><input type="radio" name="gender" id="gender" value="M"><label>Male</label>
-                <input type="radio" name="gender" id="gender" value="F"><label>Female</label>
-                <input type="radio" name="gender" id="gender" value="Others"><label>Others</label></td>
+                <td><input class="input" type="radio" name="gender" id="gender" value="M"><label>Male</label>
+                <input class="input" type="radio" name="gender" id="gender" value="F"><label>Female</label>
+                <input class="input" type="radio" name="gender" id="gender" value="Others"><label>Others</label></td>
             </tr>
             <tr>
                 <td><label for="country">Select Country</label></td>
@@ -59,37 +62,46 @@
             </tr>
             <tr>
                 <td><label for="file">Upload Picture</label></td>
-                <td><input type="file" name="file" id="file"></td>
+                <td><input class="input" type="file" name="file" id="file"></td>
             </tr>
-            <tr>
-                <td><input type="reset"></td>
-            </tr>
-            </form>
         </table>
-        <br>
     </fieldset>
+    </section>
+    </div>
     
-    <fieldset>
-        <legend>Course Details</legend>
-        <label for="course">Select Course</label><br>
+   <fieldset class="form">
+    <legend>Course Details</legend>
+    <div class="feild">
+        <label for="course">Select Course: </label>
         <select name="course" id="course">
             <option value="Java Full Stack">Java Full Stack</option>
             <option value="DSA">DSA</option>
             <option value="AI">AI</option>
             <option value="DataScience">Data Data Science</option>
         </select><br>
-        <label for="delivery_mode">Delivery Mode</label>
-        <input type="radio" name="delivery_mode" id="delivery_mode"><label>Online</label>
-        <input type="radio" name="delivery_mode" id="delivery_mode"><label>Offline</label><br>
-        <label for="insti">Institution Name</label>
+
+        <label>Delivery Mode:</label>
+        <input type="radio" name="delivery_mode"> Online
+        <input type="radio" name="delivery_mode"> Offline
+        <br>
+
+        <label for="insti">Institution Name:</label>
         <input type="text" value="TAP ACADEMY" readonly name="insti" id="insti"><br>
-        <label for="knowledge">Choose your present  Coding knowledge Level</label><br>
+
+        <label for="knowledge">Choose your present Coding knowledge Level</label><br>
         <input type="range" name="knowledge" id="knowledge" min="1" max="5"><br>
+
         <label for="feed">Comments</label><br>
-        <textarea name="feed" id="feed" rows="5" cols="30"></textarea>        
-    </fieldset>
-    <br>
-    <input type="submit"/>
+        <textarea name="feed" id="feed" rows="5" cols="30"></textarea>
+        </div>
+</fieldset>
+
+     <div class="button1">
+    <input type="submit">
+    <input type="reset">
+</div>
+</form>
+   
     
 </body>
 </html>
