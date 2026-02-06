@@ -17,34 +17,42 @@
         <table>
             <tr>
                 <td><label for="fname"> First Name</label></td>
-                <td><input class="input" type="text" id="fname" name="fname" placeholder="Ex: Dhikshanth" required></td>
+                <td><input class="input" type="text" id="fname" name="fname" placeholder="Ex: Dhikshanth" required>
+                <p class="tooltip">Please enter the valid name</p></td>
             </tr>
             <tr><td><label for="sname">Surname</label></td>
-                <td><input class="input" type="text" id="sname" name="sname" placeholder="Ex: K"></td>
+                <td><input class="input" type="text" id="sname" name="sname" placeholder="Ex: K">
+                <p class="tooltip">Please enter the valid Surname</p></td>
             </tr>
             <tr>
                 <td><label for="Mobile">Mobile</label></td>
-                <td><input class="input" type="tel" id="mobile" name="mobile" required placeholder="EX:9943494763"></td>
+                <td><input class="input" type="tel" id="mobile" name="mobile" required placeholder="EX:9943494763">
+                <p class="tooltip">Please enter the valid  number</p></td>
             </tr>
             <tr>
                 <td><label for="email">Email</label></td>
-                <td><input class="input" type="email" id="email" name="email" placeholder="abc@gmail.com" required></td>
-            </tr>
+                <td><input class="input" type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+                <p class="tooltip">Please enter the valid email id </p>
+           </tr>
             <tr>
                 <td><label for="pass">Password</label></td>
-                <td><input class="input" type="password" id="pass" name="pass" placeholder="Min 8 characters"></td>
+                <td><input class="input" type="password" id="pass" name="pass" placeholder="Min 8 characters">
+                <p class="tooltip">Please enter the valid password</p></td>
             </tr>
             <tr>
                 <td><label for="cpass">Confirm Password</label></td>
-                <td><input class="input" type="password" id="cpass" name="cpass" placeholder="Min 8 characters"></td>
+                <td><input class="input" type="password" id="cpass" name="cpass" placeholder="Min 8 characters">
+                <p class="tooltip">Please enter the same password</p></td>
             </tr>
             <tr>
                 <td><label for="dob">Date of Birth </label></td>
-                <td><input class="input" type="date" id="dob" name="dob" required></td>
+                <td><input class="input" type="date" id="dob" name="dob" required>
+                <p class="tooltip">Please enter the valid date of birth</p></td>
             </tr>
             <tr>
                 <td><label for="age">Age</label></td>
-                <td><input class="input" type="number" id="age" name="age" min="18" max="100" required></td>
+                <td><input class="input" type="number" id="age" name="age" min="18" max="100" required>
+                <p class="tooltip">Please enter the valid age</p></td>
             </tr>
             <tr>
                 <td><label for="gender">Gender</label></td>
@@ -71,29 +79,41 @@
     
    <fieldset class="form">
     <legend>Course Details</legend>
-    <div class="feild">
-        <label for="course">Select Course: </label>
-        <select name="course" id="course">
+    <div>
+        <table>
+            <tr>
+                <td><label for="course">Select Course: </label></td>
+                <td><select name="course" id="course">
             <option value="Java Full Stack">Java Full Stack</option>
             <option value="DSA">DSA</option>
             <option value="AI">AI</option>
             <option value="DataScience">Data Data Science</option>
-        </select><br>
+        </select></td>
+        </tr>
 
-        <label>Delivery Mode:</label>
-        <input type="radio" name="delivery_mode"> Online
-        <input type="radio" name="delivery_mode"> Offline
+        <tr>
+        <td><label>Delivery Mode:</label></td>
+        <td><input type="radio" name="delivery_mode"> Online
+        <input type="radio" name="delivery_mode"> Offline</td>
         <br>
+        </tr>
 
-        <label for="insti">Institution Name:</label>
-        <input type="text" value="TAP ACADEMY" readonly name="insti" id="insti"><br>
+        <tr>
+        <td><label for="insti">Institution Name:</label></td>
+        <td><input type="text" value="TAP ACADEMY" readonly name="insti" id="insti"></td>
+        </tr>
 
-        <label for="knowledge">Choose your present Coding knowledge Level</label><br>
-        <input type="range" name="knowledge" id="knowledge" min="1" max="5"><br>
+        <tr>
+        <td><label for="knowledge">Choose your present Coding knowledge Level</label></td>
+        <td><input type="range" name="knowledge" id="knowledge" min="1" max="5"><br></td>
+        </tr>
 
-        <label for="feed">Comments</label><br>
-        <textarea name="feed" id="feed" rows="5" cols="30"></textarea>
+        <tr>
+        <td><label for="feed">Comments</label><br></td>
+        <td><textarea name="feed" id="feed" rows="5" cols="30"></textarea></td>
+        </tr>
         </div>
+        </table>
 </fieldset>
 
      <div class="button1">

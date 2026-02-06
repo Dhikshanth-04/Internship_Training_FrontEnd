@@ -44,9 +44,60 @@ legend {
   transition: all ease-in 0.3s;
 }
 
+input:focus + .tooltip {
+  display: block;
+}
+
+.tooltip {
+  border-radius: 8px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+  padding-bottom: 8px;
+  padding-left: 3px;
+  margin-top: 4px;
+  width: 100%;
+  display: none;
+  font-size: 13px;
+  transition: all ease-in 0.3s;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"],
+[type="date"],
+[type="tel"],
+[type="number"] {
+  width: 100%;
+}
 .input::placeholder {
   padding: 5px;
   color: rgba(255, 255, 255, 0.55);
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+}
+
+input[type="radio"]:checked {
+  width: 15px;
+}
+#country {
+  border-radius: 8px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+  padding-left: 10px;
+  transition: all ease-in 0.3s;
+  width: 100%;
+}
+
+#country option {
+  background-color: #ffffff;
+  color: #111827;
+  border-radius: 10px;
 }
 
 .input:hover {
@@ -62,6 +113,7 @@ textarea {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.25);
   color: #f1f1f1;
+  padding: 10px;
 }
 
 .table {
@@ -100,4 +152,32 @@ input[type="reset"]:hover {
 
 .feild {
   margin: auto;
+}
+
+#course {
+  border-radius: 8px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+  padding-left: 10px;
+  transition: all ease-in 0.3s;
+  width: 100%;
+}
+
+#course option {
+  background-color: #ffffff;
+  color: #111827;
+  border-radius: 10px;
+}
+
+#insti {
+  border-radius: 8px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+  padding-left: 10px;
+  transition: all ease-in 0.3s;
+  width: 100%;
 }
