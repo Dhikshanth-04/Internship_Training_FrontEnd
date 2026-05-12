@@ -1,19 +1,29 @@
-1. Basic structures of HTML;
+Self - Intro;
 
-what is HTML?
-    * HTML stands for Hyper Text Markup Language, its the standard language used to create the webpages. To be clear, HTML is not the programming language, its a markup language(a language used to structure, organize and describe a content). Even though there are different markup languages like SVG, XML, HTML is most preferrable because, HTML became the standard language of web. 
-    
-    * The main purpose of HTML would be strusturing the webpage content, defining elements on the page, Organizing texts, images, forms, buttons, links and sections.
+Good morning sir/ madam. 
 
-    * Without HTML the webpage cannot exist and the browsers cannot understand the page structure.
+My name is Dhikshanth, i recently completed my Bachelor's degree in Computer science engineering. 
 
-structured code;
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>My page</title>
-    </head>
-    <body>
-        <h1> Hello World</h1>
-    </body>
-    </html>
+During my academics journey, i developed the strong interest in web development and software technologies like html, css, javascript, java and mysql. One of my major projects was a Inter-campus Online requisition system, which i developed for my own campus and submitted to the administration to help streamline and manage their stock requisition process efficiently around the campus. 
+
+Apart from technical skills, i enjoy learning new technologies and improving my problem-solving abilities. I am a quick learner, adaptable and i work well both individually and in a team environment.
+
+Currently, i am lokking for an opportunity where i can apply my skills, gain real-time industry experience and grow as a software professional while contributing to the organization.
+
+Thank you. 
+
+Project Explanation;
+
+JARVIS, which stands for “Just A Rather Very Intelligent System,” is a vocally accessible professional and personal assistant designed to perform system-level and user-level operations based on voice commands and gesture inputs.
+
+The main objective of this project was to develop an intelligent assistant capable of interacting naturally with the user while automating multiple daily and system-related tasks.
+
+The system is designed to access and manage various functionalities of the computer, including file systems, application controls, hardware-level interactions, and user-specific operations. It can execute commands such as opening applications, managing files, surfing the internet, playing music, creating notes, and performing basic automation tasks through voice interaction.
+
+One of the major features of the project is its ability to securely manage confidential user information. Sensitive details can be stored and retrieved only through authenticated vocal commands protected using passcode verification, ensuring privacy and controlled access.
+
+Additionally, the assistant is capable of interacting with external electronic systems and supports gesture-based input alongside voice recognition, making the interaction more flexible and user-friendly.
+
+From a technical perspective, the project involved concepts related to speech recognition, text-to-speech processing, automation, gesture input handling, system command execution, and security validation mechanisms.
+
+Through this project, I gained practical experience in integrating multiple technologies into a unified intelligent system. It also improved my understanding of real-time interaction systems, automation workflows, and user-oriented software design.
