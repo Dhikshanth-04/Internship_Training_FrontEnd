@@ -1,0 +1,19 @@
+1. Basic structures of HTML;
+
+what is HTML?
+    * HTML stands for Hyper Text Markup Language, its the standard language used to create the webpages. To be clear, HTML is not the programming language, its a markup language(a language used to structure, organize and describe a content). Even though there are different markup languages like SVG, XML, HTML is most preferrable because, HTML became the standard language of web. 
+    
+    * The main purpose of HTML would be strusturing the webpage content, defining elements on the page, Organizing texts, images, forms, buttons, links and sections.
+
+    * Without HTML the webpage cannot exist and the browsers cannot understand the page structure.
+
+structured code;
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My page</title>
+    </head>
+    <body>
+        <h1> Hello World</h1>
+    </body>
+    </html>
